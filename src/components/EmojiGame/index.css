@@ -1,0 +1,23 @@
+/* Write your code here. */
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+
+.emojis-list {
+  max-width: 650px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .emojis-list {
+    max-width: 500px;
+  }
+}

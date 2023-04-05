@@ -1,0 +1,86 @@
+/* Write your code here. */
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-color: #ffffff33;
+}
+
+.left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 22%;
+  width: 22%;
+}
+
+.emoji-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.emoji-score {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    background-color: #ffffff33;
+  }
+
+  .left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .logo {
+    height: 18%;
+    width: 18%;
+  }
+
+  .emoji-heading {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 5px;
+  }
+
+  .emoji-score {
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-right: 8px;
+  }
+}
